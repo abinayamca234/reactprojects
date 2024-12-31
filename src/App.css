@@ -1,0 +1,272 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height for vertical centering */
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+  background-image: url('https://www.audreeinfotech.com/wp-content/uploads/2023/05/UMS.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  max-width: 400px;
+  width: 100%; /* Fully responsive */
+  display: flex;
+  flex-direction: column; /* Stack child elements */
+  align-items: center; /* Center child elements */
+  opacity: 0.9; /* Slight opacity to blend with background */
+}
+
+
+.input-container {
+  width: 95%;
+  margin: 10px 0; /* Margin between input fields */
+}
+
+label {
+  display: block; /* Ensure label is above input */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold */
+}
+
+input {
+  width: 95%; /* Full width within the input container */
+  padding: 10px;
+  border: 1px solid #b9c6f7;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+.header-container {
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 105%;
+  height: 6vh;
+  display: inline-block; /* Adjust the width to fit content */
+  color: white;
+  background-color: rgb(66, 42, 137); /* Set your desired background color */
+  
+  text-align: center; /* Center the text inside the container */
+  border-radius: 2px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+  font-size: 18px; 
+  margin-top: 10px;/* Optional: Adjust text size for better readability */
+  margin-bottom: 20px;
+ 
+}
+
+.header-container-emp {
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  width: 20%; /* Full width within the card */
+  padding: 10px;
+  background-color: rgb(42, 87, 72);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px; 
+
+ 
+}
+
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  width: 40%; /* Full width within the card */
+  padding: 10px;
+  background-color: rgb(66, 42, 137);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.button-add {
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  width: 20%; /* Full width within the card */
+  padding: 10px;
+  background-color: rgb(66, 42, 137);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #4325af;
+}
+.forgot-password {
+  margin-top: 5px;
+  margin-right: 50px;
+  text-align: right; /* Align the link to the right */
+  width: 100%;
+}
+
+.forgot-password a {
+  color: rgb(66, 42, 137); /* Match button color for consistency */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height for vertical centering */
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 248, 255); /* Light background color for a clean look */
+  margin: 0; /* Remove default margin */
+}
+/* Employee Table CSS */
+.employees-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  font-size: 13px;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color:  rgb(66, 42, 137);
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+button {
+  padding: 5px 10px;
+  background-color:#4325af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(66, 42, 137);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+ 
+  color: white;
+ 
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], select {
+  padding: 8px;
+  margin: 5px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="date"]:focus, select:focus {
+  outline: none;
+  border-color: #4325af;
+}
+
+button {
+  background-color:#4325af;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #396d3b;
+}
+/* Custom styles for SweetAlert2 */
+.custom-swal-popup {
+    background-color: #f4f6f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-swal-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.custom-swal-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.custom-swal-confirm-btn {
+    background-color: rgb(66, 42, 137);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.custom-swal-confirm-btn:hover {
+    background-color: #c0392b;
+}
+
+.custom-swal-cancel-btn {
+    background-color:rgb(66, 42, 137);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.custom-swal-cancel-btn:hover {
+    background-color: #3b11a5;
+}

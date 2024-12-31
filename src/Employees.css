@@ -1,0 +1,38 @@
+.employees-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
